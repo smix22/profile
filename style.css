@@ -1,29 +1,36 @@
 body {
-  font-family: "Lora", serif;
-  background-color: #F6F6F6;
-  color: #444444;
+  font-family: "Space Mono", monospace;
+  background-image: url("images/mix-background-space.jpg");
+  background-size: cover;
+  color: whitesmoke;
   font-size: 14px;
   text-align: center;
 }
 h1 {
-  font-family: "Ubuntu", sans-serif;
-  color: #66CC99;
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  color: white;
+  font-weight: bold;
   font-size: 24px;
+  margin-bottom: 0px;
 }
 h2, h3 {
-  font-family: "Ubuntu", sans-serif;
-  color: #8B95C9;
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+  color: white;
   font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 a {
   text-decoration: none;
-  color: #8B95C9;
+  color: white;
   font-size: 36px;
   transition: 0.3s ease;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Space Mono", monospace;
 }
 a:hover {
-  color: #C8CCE5;
+  color: rgba(255, 255, 255, 0.5);
 }
 p {
   margin-bottom: 30px;
@@ -37,7 +44,7 @@ li {
 }
 
 .container {
-  width: 700px;
+  width: 500px;
   margin: 40px auto;
 }
 
@@ -64,19 +71,34 @@ li {
 
 .img-circle {
   border-radius: 50%;
+  border: 1px solid white;
+  padding: 10px;
 }
-.btn-purple {
-  background-color: #8B95C9;
-  color: white;
+.btn-transparent {
+  border: 0px;
+  background-color: white;
+  color: darkblue;
   font-size: 14px;
   padding: 10px 15px;
   border-radius: 5px;
 }
+.btn-transparent:hover {
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: darkblue;
+}
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
   margin: 20px auto;
   border-radius: 10px;
-  border: 1px solid #EAEAEA;
+  border: 1px solid white;
+  text-align: center;
+}
+.card-social {
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 0px;
   text-align: center;
 }
