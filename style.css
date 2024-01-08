@@ -1,0 +1,82 @@
+body {
+  font-family: "Lora", serif;
+  background-color: #F6F6F6;
+  color: #444444;
+  font-size: 14px;
+  text-align: center;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #66CC99;
+  font-size: 24px;
+}
+h2, h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #8B95C9;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #8B95C9;
+  font-size: 36px;
+  transition: 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+a:hover {
+  color: #C8CCE5;
+}
+p {
+  margin-bottom: 30px;
+}
+ul {
+  padding: 0px;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.btn-purple {
+  background-color: #8B95C9;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #EAEAEA;
+  text-align: center;
+}
