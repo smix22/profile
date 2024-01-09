@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: "Space Mono", monospace;
   font-weight: bold;
-  color: white;
+  color: whitesmoke;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 0px;
@@ -17,20 +17,20 @@ h1 {
 h2, h3 {
   font-family: "Space Mono", monospace;
   font-weight: normal;
-  color: white;
+  color: whitesmoke;
   font-size: 18px;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   font-size: 36px;
   transition: 0.3s ease;
   font-family: "Space Mono", monospace;
 }
 a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(245, 245, 245, 0.5);
 }
 p {
   margin-bottom: 30px;
@@ -71,12 +71,12 @@ li {
 
 .img-circle {
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   padding: 10px;
 }
 .btn-transparent {
   border: 0px;
-  background-color: white;
+  background-color: whitesmoke;
   color: darkblue;
   font-size: 14px;
   padding: 10px 15px;
@@ -84,15 +84,15 @@ li {
 }
 .btn-transparent:hover {
   border: 0px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(245, 245, 245, 0.5);
   color: darkblue;
 }
 .card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(245, 245, 245, 0.1);
   padding: 20px;
   margin: 20px auto;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   text-align: center;
 }
 .card-social {
