@@ -45,7 +45,11 @@ li {
 
 .container {
   width: 500px;
-  margin: 40px auto;
+  margin: 150px auto 150px auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
 }
 
 @media (max-width: 960px) {
